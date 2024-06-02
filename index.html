@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title >Situs Resmi PT Kereta Api Indonesia </title>
+
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAA+VBMVEX///8tKmzsaigpJmomImnGxtTZ2ePsaCM6OHMsKGv71MXucjb74tntZyAAAFvT0+DrXQAUDmIfG2b+9vMbF2TrYRHsVwD5+fzj4+vv7vOZmLP97efrZBgXEmP+8u3/+/nzi11iYI33wq5sapXymnh9e5362s65ucrvdj9ycJf4s5lbWYhCQHkAHXPiZi/6zbzxg1MSJG+IhqdMSoDqTQD3uqKpqcD5poSKbYU6LGlWM2KaRkfyfkqAPlS7UTZEMGdxPl7RViOMR1axVUfPWi78m3PdaDiJGibLXz2uSzyuudPkh2X8cBxkOmGBT2SWd4l5XnubUlXe0dNmsgA+AAAJ10lEQVR4nO2a+XfaSBLH0YGFgMZCIHEJEBhjLB+SsbE2GeI4B7MzO8nuZv7/P2ZbEofUVXJMlNn3dl99fsl7oa3WV1VdR3eXSgRBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARB/N/QPYH0sIE9ZGBENz2oVQcMXpi80z1NU1RL77KtijQu4LjTiQ7GxWMnnf2Y8XStMRHLzVVTnkjpR5ntomK6k7akCzTKYFi/0VbEYbou6c2zw5gqszUZYtTxmXv3DTN6hBTD/1Gvi4o5vVclkYZo706/oYBR0RuktUwfGCKFi1mNsYlPGm3hacMzbNwxlK+BGEU6eZ0WpX15GOQ/oFJk2XJbyLw9+MjmsqiYiwp4qHqfWdO5WlQzNXvLwFwsQrOwRXNlQod4LCrmcee0B8xJRkyn38S1qP3D2i+FRo4WWbZ9OO0F1CJhcedIMaLnSlL7PBOalw0gF2oZ5GuRrRmc9hKuVLhUj6bfBA9tLlNiOssGJkVSlbSW0szJFyM7IAL0kLAjNbrisCPpLKGYRuo1O+dDVIuSsUupXstbMbGfzcVpT2HYkfQGmquPoIe8bGohds7bqI8pw37mMSEelbcYoThtGYYdSTELaokKAChmvxA759BuyUfMapkvXhTDLHFaJIZKaqWomBMYInVzVwD0LvH1ojSFIBq+tGI4D2Jw7iuCwXVFMf9WVAxSACiVrZjeec7aNwUt3zEM9zNPmHaZmZUrefP2Fwc447GUK0CMep+EyG6OFlMS8sHYs17WIrO1MO15yh+UO+ntuyc58EZFxVyoMGdenbykpV0Rc9t3DcNTjeBnl3sxyt37518+yJvpeIRVPceJgW/cvoziffcsR8u1qOX7huGZZpr5k95ZIka/U99+/N2qhdVxy9/kVNev5xG+8jDKmb1JrpaO8Ij69w0js03mT7oTM/Gvd58+27I3L439za9/F8rbo+E1JHjf5rLDZ8NjMqKl5b1QyezFLDI+dHKlSurN+2+/yXZtyg0ydeXfvxYuAHpoARB3bBgmWC+8KtNA8rds0VZaLVNslq9vbr4+3Tr2wueLabVmH555jPwrCoDhRfcKz/uqAkvBMTQM2/hrUY2TKTb/Ufl4qzn22uf28mvWl2+KoivXRcV0z2DOrCwneD2mmkhZO7JFLZo2KE1FhY57KDbH8z8cxzICXrGN/Zrx5bN0F1l9UlTMCcyZut5Geo1oNgVzatjHRBV/lQm+xxbVrZLBamEbTN5w/2r5C9u5fb6JS5toqRbjFKmRdNTF+NrHos0INssGf816IBY4LCoCxqN5aNmWvA75qh/4ay7lU2wWKVur/xjlJv7mkOE9Gjk3IMdYQaRxJv6/NRu36lPXMCzZ9QaJFEt+er7bfc3iTXMZzyaQ5gTVMgArZtu8gLDAglVYMyxDnk0jy01d29F++/jmbv8xkf2tI0EKgGO0lIABZCeIf/BlELAdyzHk0OcVWN1zLYfJv7y9Szl54aa5gxQAGOYZrqUOS/9tV1kPQFmgGTWvGksJHEf78ulZSa9XvfFXFAAICqjHtmzAGztBkupbos2YXVvV+W/1cM0c+cvtu5SHxWLUomKwnImgm330z+ew83/YRuBStvrkUqYjnmlGYY0xmX359F4RwqhaKVzNTPCUAkwjoatzBg3j7pqSaUooe0iqmVHI/Yu724evKsgIwmbdD9DFdnwwmmfIVFVYLh/2+/aLRmNWEK+jwczmIU5z5NUjUi0NzwsXAPAL5YDtNoYwlO2PL1rzRAzTarOoT2nVQyOK1o7M25ZHpCTPbNb9mBh8sxJBhfkfMYyV9GDjgb+xnMgKLAi3UqxYihP4OWGneAFw+tqcyScTS6cxYpggevNR1Vsb0W+W43qxlHnoxNvq2jqMlhTWd/w3CwBOU4gBSOfv8PprPp05vI7ky5xtolxfalVDOTkh0FgS6rC9up9QALwyZ8a07zOmQRpM5larYWBYWiRFm0V9F6/xw5q1i2tGklCRvkPCTuuO45U5c/ftMsmmDusVbe3WoqUSSQnncYz2ZwvrYEDDi5uaqGkGYpC+70gxmPPmojRT8Qbt/DUWvbhmy149rgN8V7bSvuis4/8+vUb2ZvGi/Ah6Oa1+Du3UmWPueQyzjTjX82gXaGKLZse7SWVxb1bab9YVEYMcLLyoZp9sxjkHZbxs2abN6toQpXAxq+inC6SJSjbrCokxX5szE9T9nsMAO41ljAVJvGrxzgvbTHPcWAyyUovnzF5ezlRM/Ad1dyILG0yZObVNEq1GfmDnHAvY45yw0yycM09ygplZWeL+p14nMQc2mI4VhImUge/mSUlqtw5y8vgzdgBytvkrj6XLnB3Ny9gbBMNolhN4yU7xYHqQwqCmyM96S6TvKF4A4E2zGW3B9tr4NQY9mrRuZKXwXL+VsnKtnQLNCDZAjWZEOROJocPCx+ZozjST7eSc3YH2FY86mZc0WJLrYylsbzLL8epVdLuji9xn0PGG6RiwE0vzupx47xnuaMN+Z57+0tY215cGYSDvRTLDrbZKLRi/rVnpBJ5v8cVYWAySM/dngKUuvqWmSqf7zl+zDW+w7fnDBXP2ecVgq1ghrEW1WukECZVq4ZxZQnKmcijAcqrQm39uq7JIyvagouXJ7PDemr3Z9mhIamUDrO8wsU72OOC315XDQuyh++f63VNcgDGrtrt6NeJN5CHZa5a829QoIYuGeVgMbRdumjvwqbqe8t1TrKm+e8cNw4Ouuy1bxgPPSn1/3uKnTpZHiGUCtAAoLKYLn6pIKXN3+kNgOkV6YsxZbHZ7+nUvbRUeAdz0yWTLhcF58S/E4E18L+sIEOdVpPQXQm483L3TrHW4l7Jy0jcZmeNmD2KRkyhZfr6DYoaFxSD2VrJXPi4kwdH0N0+Bt73W05p7tcyNOWvhiTcx4KLRbr8iYtTCBQCSM5X7zIjeuWAa89/bXF8aV8NFtvOyZnNwFasO2gDt9j1yBwg5Kz0SJGeqk+wQ4WTtMGl1lpUi22sfuWExAItGu4VXD39GzrzCLgEKY/qZGxzmWVId+H/UslIse4XeXobdtfYr5mX3hS8BImXFEPhu2jRKcmtm7spORopmB3X0ui+XDcR8xsQULwAQMU3gu+meR72KpASWsBAMZ5ojhY8GmzhPN1BM8V1zHs1URQA5vurvR6lqeVxdPDhaBuaEL1xH4tVBdrjz6UacVFGGl0VbM/6eFRHsdHx5vf1Ruqq7hlwTCKrwT1LUN8L4bxKYtSIVvp7N6ZZFsC/U2/34p+9XAd+7JTaeZ8f/CebkFF4yBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBPE/zn8AqHvmmNK8OHcAAAAASUVORK5CYII=">
+</head>
+
+<body>
+
+    <!-- side-bar -->
+
+    <div class="side-bar">
+        <img src="https://www.kai.id/static/konten/logo_white.png" alt="" class="image"> 
+        <div class="rotate">Pemesanan Tiket</div>
+    </div>
+
+    <!-- navbar_banner -->
+
+    </div>
+    <div class="banner">
+        <img src="https://www.kai.id/static/konten/4.jpg" alt="img" class="bnr">
+        <div class="navbar">
+          <a href="#">BERANDA</a>
+          <a href="#">LAYANAN</a>
+          <a href="#">PREORDER</a>
+          <a href="#">AKUN</a>
+        </div>
+    </div>
+
+    <!-- teks_bottom_banner -->
+
+    <div class="teks_bottom_banner">
+      <a href="" class="teks_banner">
+        <b>Berita Terbaru |<b>
+        Nikmati Kelezatan Di Stasiun Kereta Api
+      </a>
+    </div>
+
+    <!-- title-of-kai -->
+
+    <div class="title">
+        <h2 class="smb">
+            Adaptif,Solutif, Kolaboratif Untuk Indonesia
+        </h2>
+    </div>
+
+    <!-- line-through -->
+
+    <div class="line_under_teks"></div>
+
+    <!-- main-content -->
+
+    <div class="content1">
+      <button class="next">SELENGKAPNYA</button>
+      <img src="https://www.kai.id/static/konten/n_angkutan_penumpang.jpg" alt="cnt_img" class="img-cnt">
+    </div>
+
+    <div class="underline-teks">
+      <p class="orp">
+        Angkutan <b>Penumpang</b>
+      </p>
+      <ul>
+        <li>Fasislitas Utama</li>
+        <li>Promo</li>
+        <li>Jelajah Nusantara</li>
+      </ul>
+    </div>
+
+    <div class="content2">
+      <button class="next2">SELENGKAPNYA</button>
+      <img src="https://www.kai.id/static/konten/n_angkutan_barang.jpg"alt="cnt_img2" class="img-cnt2">
+    </div>
+
+    <div class="underline-teks2">
+      <p class="orp">
+        Angkutan <b>Barang</b>
+      </p>
+      <ul>
+        <li>Angkutan Retail</li>
+        <li>Angkutan Korporat</li>
+      </ul>
+    </div>
+
+    <div class="content3">
+      <button class="next3">SELENGKAPNYA</button>
+      <img src="https://www.kai.id/static/konten/n_pengusahaan_aset.jpg" alt="cnt_img3" class="img-cnt3">
+    </div>
+
+    <div class="underline-teks3">
+      <p class="orp">
+        Pengusaha <b>Aset</b>
+      </p>
+      <ul>
+        <li>Area komersial</li>
+        <li>Space Iklan</li>
+        <li>Bangunan Dinas</li>
+      </ul>
+    </div>
+
+    <!-- footer_main -->
+
+    <div class="anak_perusahaan">
+      <h2>Anak Perusahaan</h2>
+    </div>
+
+    <div class="line_footer"></div>
+
+    <!-- footer_main_img -->
+
+    <div class="ftr_img">
+      <img src="https://www.kai.id/static/konten/LOGOKAISERVICES-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAIBANDARA-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAICOMMUTER-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAIWISATA-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAIWISATA-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAILOGISTIK-01.png" alt="">
+      <img src="https://www.kai.id/static/konten/LOGOKAIPROPERTI-01.png" alt="">
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="img-footer">
+        <img src="https://www.kai.id/static/konten/KAI121-2.png" alt="kai__img">
+        <img src="https://www.kai.id/static/konten/bumn_hun.png" alt="bumn__img">
+      </div>
+      <div class="social-media">
+        <a href="http://facebook.com/keretaapikita">
+          <img src="Facebook.png" alt="facebook" class="fcb">
+        </a>
+        <a href="http://twitter.com/keretaapikita">
+          <img src="twitter2.png" alt="twitter" class="twt">
+        </a>
+        <a href="http://youtube.com/keretaapikita">
+          <img src="youtubepng.png" alt="youtube" class="yt">
+        </a>
+        <a href="http://instagram.com/keretaapikita">
+          <img src="instagram.png" alt="instagram" class="ig">
+        </a>
+        <div class="download-apps">
+          <p>Downlaod KAI Access di :</p>
+        </div>
+        <div class="header_list_footer">
+          <h3><b>TENTANG KAMI</b></h3>
+          <div class="list_footer">
+            <ul>
+              <li>Tentang kami</li>
+              <li>Publikasi</li>
+              <li>Karir</li>
+              <li>Lelang</li>
+              <li>Keterbukaan Informasi Publik</li>
+              <li>Heritage</li>
+              <li>TJSL</li>
+              <li>Hubungan investor</li>
+              <li>GCG</li>
+            </ul>
+          </div>
+          <div class="header2_list_footer">
+            <h3><b>KONTAK KAMI</b></h3>
+          </div>
+          <div class="list2_footer">
+            <ul>
+              <li>Kantor Pusat: Jalan Perintis Kemerdekaan No. 
+                <br>1 Bandung 40117b<br></li>
+              <li>Office Phone: 022-4230031, 4230039, 
+                <br>4230054, 42141121<br></li>
+              <li>Email Korespondensi Kantor Pusat: 
+                <br>dokumen@kai.id<br></li>
+              <li>Link Alamat Kantor Cabang Klik di sini</li>
+              <li>Contact Center: 121 / (021) 121</li>
+              <li>Layanan Pelanggan: cs@kai.id</li>
+            </ul>
+          </div>
+       </div>
+    </div>
+    <div class="img-download">
+      <a href="https://itunes.apple.com/id/app/kereta-api-indonesia-access/id901804734?mt=8" class="appstore">
+        <img src="https://www.kai.id/static/konten/App-Store-Badge.png" alt="store" class="apps-store">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.kai.kaiticketing" class="playstore">
+        <img src="https://www.kai.id/static/konten/google-play-badge.png" alt="store1" class="play-store">
+      </a>
+    </div>
+
+    <!-- footer_under_section -->
+
+    <div class="footer_under_section">
+      <p>&copy;2024 PT KERETA API INDONESIA (PERSEPO), All Right Reversed</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
+
